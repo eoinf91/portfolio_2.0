@@ -1,0 +1,18 @@
+@import "../../styles/colours.styles.scss";
+
+.feature-image {
+    width: 100%;
+    border-radius: 32px;
+    height: 350px;
+    margin: 32px auto;
+
+    @media (min-width: 600px) {
+        height: 550px;
+        margin: 64px auto;
+        border-radius: 64px;
+    }
+    
+    img {
+        object-position: top;
+    }
+}

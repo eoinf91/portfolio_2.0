@@ -1,0 +1,20 @@
+header {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 954px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    flex-shrink: 0;
+    position: fixed;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10000;
+    
+    @media (min-width: 600px) {
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,22 @@
+@import "../../styles/colours.styles.scss";
+@import "../../styles/typography.styles.scss";
+
+.cs-detail {
+
+    h3 {
+        text-align: center;
+    }
+
+    @media (min-width: 600px) {
+        display: flex;
+        justify-content: space-between;
+
+        h3 {
+            text-align: left;
+        }
+
+        p {
+            text-align: left;
+        }
+    }
+}

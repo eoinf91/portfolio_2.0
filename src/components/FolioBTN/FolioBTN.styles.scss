@@ -1,0 +1,28 @@
+@import '../../styles/colours.styles.scss';
+@import '../../styles/typography.styles.scss';
+
+.foliobtn_link {
+    display: block;
+    width: fit-content;
+    border-radius: 100px;
+    background: $secondaryBeige;
+    box-shadow: 0px 0px 16px 0px $skobeloff900;
+    backdrop-filter: blur(10px);
+    margin: 80px auto 16px;
+
+    .flex {
+        display: flex;
+        padding: 24px 40px;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+    }
+
+    p{
+        color: $primary;
+        font-size: 22px;
+        line-height: 150%; /* 33px */
+        letter-spacing: 0.88px;
+        margin: 0 auto;
+    }
+}

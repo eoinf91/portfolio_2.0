@@ -1,0 +1,32 @@
+@import "../../styles/typography.styles.scss";
+@import "../../styles/colours.styles.scss";
+
+.case-study-content {
+    margin: auto;
+
+    h2 {
+        margin-top: 24px;
+
+        @media (min-width: 600px) {
+            margin-top: 64px;
+        }
+    }
+
+    .gatsby-resp-image-wrapper {
+        margin-top: 40px;
+        border-radius: 32px;
+        overflow: hidden;
+        max-height: 200px;
+
+        @media (min-width: 600px) {
+            margin-top: 80px;
+            max-height: 650px;
+            border-radius: 64px;
+        }
+
+        img {
+            object-fit: cover;
+            object-position: top;
+        }
+    }
+}

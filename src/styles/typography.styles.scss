@@ -1,0 +1,76 @@
+@import './colours.styles.scss';
+
+.uppercase {text-transform: uppercase;}
+.bold {font-weight: 700;}
+.fs8 {font-size: 8px;}
+.fs12 {font-size: 12px;}
+.fs16 {font-size: 16px;}
+.fs20 {font-size: 20px;}
+.fs24 {font-size: 24px;}
+.fs28 {font-size: 28px;}
+.fs32 {font-size: 32px;}
+.fs36 {font-size: 36px;}
+.fs40 {font-size: 40px;}
+
+h1{
+    font-family: "Bellota", serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 120%; /* 96px */
+    letter-spacing: 1.6px;
+    color: $secondaryBeige;
+
+    @media (min-width: 600px) {
+        font-size: 80px;
+    }
+}
+
+h2{
+    color: $paper;
+    text-align: center;
+    font-family: Bellota;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 48px */
+    letter-spacing: 0.8px;
+    margin-bottom: 16px;
+
+    @media (min-width: 600px) {
+        font-size: 40px;
+    }
+}
+
+h3{
+    color: $secondaryBeige;
+    font-family: Bellota;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 30px */
+    letter-spacing: 0.8px;
+}
+
+h4{
+    color: $secondaryGreen;
+    text-align: right;
+    font-family: Bellota;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 33.6px */
+    letter-spacing: 0.56px;
+}
+
+p{
+    color: $paper;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%; /* 30px */
+    letter-spacing: 0.8px;
+    margin-bottom: 12px;
+}

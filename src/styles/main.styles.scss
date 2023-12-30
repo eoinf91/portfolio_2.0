@@ -1,0 +1,38 @@
+@import "./colours.styles.scss";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, $primary, $secondaryGreen) no-repeat;
+    font-family: "Bellota";
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 90%;
+    max-width: 954px;
+    margin: 0 auto 120px;
+}
+
+.mxb4 {margin-bottom: 4px}
+.mxb8 {margin-bottom: 8px}
+.mxb12 {margin-bottom: 12px}
+.mxb16 {margin-bottom: 16px}
+.mxb20 {margin-bottom: 20px}
+.mxb24 {margin-bottom: 24px}
+.mxb28 {margin-bottom: 28px}
+.mxb32 {margin-bottom: 32px}
+.mxb36 {margin-bottom: 36px}
+.mxb40 {margin-bottom: 40px}

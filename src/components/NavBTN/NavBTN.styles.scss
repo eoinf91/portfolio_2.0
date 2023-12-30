@@ -1,0 +1,23 @@
+@import '../../styles/colours.styles.scss';
+@import '../../styles/typography.styles.scss';
+
+.navBtn {
+    display: inline-block;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+
+    &.active {
+        background: rgba(240, 243, 245, 0.10);
+    }
+
+    p{
+        text-align: center;
+        font-size: 16px;
+        line-height: 150%; /* 24px */
+        letter-spacing: 0.64px;
+        margin: 0 auto;
+    }
+}

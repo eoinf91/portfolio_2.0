@@ -1,0 +1,13 @@
+@import '../../styles/colours.styles.scss';
+@import '../../styles/typography.styles.scss';
+
+nav {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    width: fit-content;
+
+    border-radius: 200px;
+    background: rgba(240, 243, 245, 0.01);
+    backdrop-filter: blur(10px);
+}

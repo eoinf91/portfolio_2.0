@@ -1,0 +1,67 @@
+// Main colours
+$primary: #19535F;
+$secondaryGreen: #0B7A75;
+$secondaryBeige: #D7C9AA;
+$error: #7B2D26;
+$paper: #F0F3F5;
+
+// Midnight Green - Primary colour
+$midnightGreen100: #8ED3E1;
+$midnightGreen200: #6EC7D8;
+$midnightGreen300: #4EBAD0;
+$midnightGreen400: #33AAC1;
+$midnightGreen500: #2B8DA1;
+$midnightGreen600: #227181;
+$midnightGreen700: #19535F;
+$midnightGreen800: #113940;
+$midnightGreen900: #091C20;
+
+// Skobeloff (Green) - Secondary colour
+$skobeloff100: #8FF5F0;
+$skobeloff200: #6AF1EA;
+$skobeloff300: #44EEE5;
+$skobeloff400: #1FEAE0;
+$skobeloff500: #13CDC4;
+$skobeloff600: #10A8A0;
+$skobeloff700: #0B7A75;
+$skobeloff800: #095D59;
+$skobeloff900: #053835;
+
+// Dun (Beige) - Secondary colour
+$dun100: #F8F6F1;
+$dun200: #EBE4D5;
+$dun300: #E5DCC8;
+$dun400: #D7C9AA;
+$dun500: #CBB890;
+$dun600: #BEA674;
+$dun700: #B19559;
+$dun800: #997F48;
+$dun900: #7D683B;
+
+// Falu (Red) - Error colour
+$falu100: #E7B5B1;
+$falu200: #DD9892;
+$falu300: #D47B73;
+$falu400: #CA5D53;
+$falu500: #BB443A;
+$falu600: #9C3930;
+$falu700: #7B2D26;
+$falu800: #5E221D;
+$falu900: #3E1713;
+
+// Anti-flash white - Neutral colour
+$afWhite100: #F0F3F5;
+$afWhite200: #DAE2E7;
+$afWhite300: #C2CED6;
+$afWhite400: #A9BAC6;
+$afWhite500: #91A7B6;
+$afWhite600: #7893A5;
+$afWhite700: #627F93;
+$afWhite800: #526A7A;
+$afWhite900: #415562;
+
+.primary{color: $primary;}
+.secondaryGreen{color: $secondaryGreen;}
+.secondaryBeige{color: $secondaryBeige;}
+.error{color: $error;}
+.paper{color: $paper;}
